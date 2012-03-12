@@ -1,0 +1,9 @@
+TeX Compiled shit to ignore that we don't need in the repo
+*.aux
+*.log
+*.tex.backup
+## BIBTeX
+*.blg
+*.bbl
+## Backup files
+*~
