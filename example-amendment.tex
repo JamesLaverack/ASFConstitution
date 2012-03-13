@@ -1,0 +1,38 @@
+\documentclass[a4paper,10pt]{article}
+\renewcommand{\labelenumii}{\alph{enumii}}
+\usepackage{a4wide}
+%opening
+\title{An Example Motion}
+\author{Proposer Name}
+\date{}
+%custom commands
+\newcommand{\change}{\textbf{CHANGE}\ }
+\newcommand{\add}{\textbf{ADD}\ }
+\newcommand{\remove}{\textbf{REMOVE}\ }
+\begin{document}
+
+\maketitle
+
+\section*{The Society Notes}
+\begin{enumerate}
+  \item Notes 1
+  \item Notes 2
+\end{enumerate}
+
+\section*{The Society Believes}
+\begin{enumerate}
+  \item Believes 1
+  \item Believes 2
+\end{enumerate}
+
+\section*{The Society Resolves}
+\begin{enumerate}
+  \item To amend the constitution to:
+  \begin{enumerate}
+    \item \change Section 1 point c to read ...
+    \item \add ``f. text'' to Section 2
+    \item \remove Section 3 point a
+  \end{enumerate}
+\end{enumerate}
+
+\end{document}

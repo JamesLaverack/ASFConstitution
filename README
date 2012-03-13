@@ -2,3 +2,5 @@
 To create a draft, amended version of the constitution first put `\include{amendment-tools}` in the preamble of the ASFConstitution. Then put the command `\amendmentintro` between the `\maketile` command and the start of the text.
 
 From here, simply surround removed text with \proposeddel{} and added text with \proposedadd{}.
+
+Don't forget to add a new LaTeX document with the amendment itself in it! An example-amendment.tex file is provided. (Remember, an "amendment" in this context is simply a motion that amends the constitution.)
