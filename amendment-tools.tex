@@ -2,3 +2,14 @@
 \usepackage{color}
 \newcommand{\proposedadd}[1]{\textcolor{green}{#1}}
 \newcommand{\proposeddel}[1]{\textcolor{red}{#1}}
+% Define some amendment stuff
+\usepackage{draftwatermark}
+\SetWatermarkScale{4}
+\SetWatermarkText{\textbf{PROPOSED}}
+\newcommand{\amendmentintro}{
+\begin{center}
+  This document is a \textbf{proposed} version of the constitution, if an amendment were to pass.
+
+  Things that have been \textbf{added} are in \proposedadd{green}. Whereas things that have been \textbf{removed} are in \proposeddel{red}.
+\end{center}
+}
